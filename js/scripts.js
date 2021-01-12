@@ -31,3 +31,12 @@ console.log(sentence);
 alert("Here are the two capitals: " + capTwoLetters(sentence));
 alert("Here are the two capitals reveresed: " + reverseCapLetters(sentence));
 alert(cipher(sentence));
+
+$(document).ready(function() {
+  $("#original").click(function() {
+    alert("sentence");
+  })
+  $("#ciphered").click(function() {
+    alert(`${cipher(sentence)}`);
+  })
+});

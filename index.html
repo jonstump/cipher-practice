@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
   <title>Cipher</title>
 </head>
 <body>
-  <h1>Cipher</h1>
+  <div class="container">
+    <h1>Cipher</h1>
+    <div class="row">
+      <div class="col-md-6" id="original">
+        <h1>The original sentence</h1>
+        <p>Click this chunk of text to see your original sentence.</p>
+      </div>
+      <div class="col-md-6" id="ciphered">
+        <h1>Ciphered Sentence</h1>
+        <p>Click over here to hide the original and see the ciphered sentence.</p>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery-3.5.1.js"></script>
   <script src="js/scripts.js"></script>
 </body>
 </html>
